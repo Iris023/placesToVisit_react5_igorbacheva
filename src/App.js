@@ -71,7 +71,7 @@ function App() {
 
       <div className='container'>
         <h3>To see more pictures click the buttons below</h3>
-        <img className='city_pic' alt="city" src={src}/>
+        <img className='slider_pic' alt="city" src={src}/>
         <p>{name}</p>
         <div>
           <button className='slider' onClick={prevPic}>← Prev</button>

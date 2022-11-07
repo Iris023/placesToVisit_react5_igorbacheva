@@ -13,8 +13,15 @@ body {
   align-items: center;
 }
 
+h1 {
+  text-align: center;
+  color: #191919;
+}
+
 h2 {
   margin-top: 50px;
+  text-align: center;
+  color: #191919;
 }
 
 .city_pic {
@@ -25,6 +32,7 @@ p {
   max-width: 400px;
   font-size: 15px;
   margin: 10px 50px;
+  color: #191919;
 }
 
 .deleteEach {
@@ -83,6 +91,11 @@ h3 {
   margin-top: 50px;
   font-style: italic;
   text-decoration: underline;
+  text-align: center;
+}
+
+.slider_pic {
+  height: 200px;
 }
 
 .slider {
@@ -100,3 +113,23 @@ h3 {
   border-color: rgb(0, 140, 255);
   cursor: pointer; 
 } 
+
+@media all and (max-width: 600px) {
+  .city_pic {
+    height: 220px;
+    width: 90%;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .slider {
+    margin: 10px 15px 50px;
+  }
+
+  .slider_pic {
+    width: 90%;
+    height: unset;
+  }
+}
